@@ -1,0 +1,50 @@
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttonStyle {
+
+    color: white;
+    font-weight: 900;
+
+}
+
+.square {
+
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5em;
+    animation-name: square;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes square {
+
+    0% {
+
+        border-radius: 0%;
+        
+    }
+
+    50% {
+
+        transform: scale(1.2);
+        border-radius: 50%;
+
+    }
+
+    100% {
+
+
+    }
+
+}
